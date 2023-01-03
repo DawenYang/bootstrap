@@ -15,7 +15,7 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(.)
 
 add_executable(bootstrap
-        main.cpp)
+        main.cpp terp.cpp terp.h result.h result_message.h)
 
 find_package(fmt)
 
