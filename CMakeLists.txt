@@ -29,7 +29,7 @@ include_directories(
 )
 
 add_executable(bootstrap
-        main.cpp terp.cpp terp.h result.h result_message.h)
+        main.cpp terp.cpp terp.h result.h result_message.h hex_formatter.cpp hex_formatter.h)
 
 find_package(fmt)
 
